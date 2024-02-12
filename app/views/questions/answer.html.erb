@@ -1,0 +1,6 @@
+<h1>Stupid Coaching</h1>
+<div class='question-card'>
+<p class='question-text'>Your question was : <%= params['question'] %></p>
+<p class='question-answer'>My answer is : <%= @response %></p>
+</div>
+<%= link_to 'Ask another question', '/ask' %>
